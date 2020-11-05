@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="VD1"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-05 03:48:33 AM"/>
+        <attribute name="created" value="VkQxO0RFU0tUT1AtSzE0UVJDMjsyMDIwLTExLTA1OzAzOjM4OjI0IEFNOzI1MDI="/>
+        <attribute name="edited" value="VkQxO0RFU0tUT1AtSzE0UVJDMjsyMDIwLTExLTA1OzAzOjQ4OjMzIEFNOzE7MjYxMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, j, nBaris, nKolom" type="Integer" array="False" size=""/>
+            <output expression="&quot;Input jumlah Baris: &quot;" newline="True"/>
+            <input variable="nBaris"/>
+            <output expression="&quot;Input jumlah Kolom: &quot;" newline="True"/>
+            <input variable="nKolom"/>
+            <for variable="i" start="1" end="nBaris" direction="inc" step="1">
+                <for variable="j" start="1" end="nKolom" direction="inc" step="1">
+                    <output expression="&quot; #&quot;" newline="False"/>
+                </for>
+                <output expression="&quot;&quot;" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
+@ganslicious
